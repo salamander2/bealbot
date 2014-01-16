@@ -60,7 +60,7 @@ public class OI {
     // until it is finished as determined by it's isFinished method.
     // button.whenReleased(new ExampleCommand());
 //        rightStickButton3.toggleWhenPressed(new BasicArcadeDrive());
-        rightStickButton3.whileHeld(new BasicArcadeDrive());
+        //rightStickButton3.whileHeld(new BasicArcadeDrive());
         rightStickButton3.toggleWhenPressed(new BasicArcadeDrive());
     }
     
